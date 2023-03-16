@@ -35,7 +35,7 @@ curl -L https://nixos.org/nix/install | sh -s -- --daemon
 Clone this repo and cd to it:
 
 ```
-git clone https://github.com/bao-project/bao-demos
+git clone https://github.com/ESCristiano/bao-demos.git
 cd bao-demos
 ```
 ---
