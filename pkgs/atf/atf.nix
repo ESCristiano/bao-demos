@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
     src = fetchFromGitHub {
         owner = "bao-project";
         repo = "arm-trusted-firmware";
-        rev = "bao/demo"; 
+        rev = "4487d59f811f987232796870c578a0831136d3a2"; #branch: bao/demos
         sha256 = "sha256-KQdsoBlqhYQWmsPRBXHxV8s+g6hn0gniOcs/qN8xwEY=";
     };
 

@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
     srcs = fetchFromGitHub {
         owner = "bao-project";
         repo = "bao-hypervisor";
-        rev = "demo"; 
+        rev = "0575782359132465128491ab2fa44c16e76b57f8"; # branch: demo
         sha256 = "sha256-pCsVpSOuCCQ86HbLbyGpi6nHi5dxa7hbQIuoemE/fSA=";
     };
     
